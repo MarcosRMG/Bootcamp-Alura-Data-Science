@@ -1,0 +1,20 @@
+ Procedimentos hospitalares do SUS - por local de internação - Brasil
+Valor total por Grupo procedimento e Região
+Período:Ago/2019-Jul/2020
+"Grupo procedimento";"1 Região Norte";"2 Região Nordeste";"3 Região Sudeste";"4 Região Sul";"5 Região Centro-Oeste";"Total"
+"02 Procedimentos com finalidade diagnóstica";218268,01;1636378,13;9700102,40;12922830,44;911605,68;25389184,66
+"03 Procedimentos clínicos";513568657,13;1780800059,97;3210238015,65;1294154292,27;510805101,54;7309566126,56
+"04 Procedimentos cirúrgicos";398363495,29;1735814629,63;3140886775,39;1783914261,17;542455050,58;7601434212,06
+"05 Transplantes de orgãos, tecidos e células";4258621,72;111172416,45;377104298,85;177186357,36;27807355,95;697529050,33
+"Total";916409042,15;3629423484,18;6737929192,29;3268177741,24;1081979113,75;15633918573,61
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
