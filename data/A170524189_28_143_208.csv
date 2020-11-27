@@ -1,0 +1,26 @@
+ Procedimentos hospitalares do SUS - por local de internação - Brasil
+Valor total por Ano/mês processamento e Grupo procedimento
+Período:Jan-Set/2020
+"Ano/mês processamento";"02 Procedimentos com finalidade diagnóstica";"03 Procedimentos clínicos";"04 Procedimentos cirúrgicos";"05 Transplantes de orgãos, tecidos e células";"Total"
+"2020";16676312,11;6091450559,18;5236512205,08;470335921,65;11814974998,02
+"..Janeiro/2020";2168853,44;585998975,90;668294631,55;70603081,26;1327065542,15
+"..Fevereiro/2020";2309373,02;557703957,71;660278483,24;65494689,49;1285786503,46
+"..Março/2020";2094818,38;564797706,35;656738016,47;61578303,91;1285208845,11
+"..Abril/2020";1715037,99;521799199,10;536177939,65;47887695,97;1107579872,71
+"..Maio/2020";1815919,12;623290224,99;529635276,70;39711887,30;1194453308,11
+"..Junho/2020";1652724,43;723209188,11;511416391,67;44783529,78;1281061833,99
+"..Julho/2020";1650674,25;877538523,08;552067595,16;47873699,40;1479130491,89
+"..Agosto/2020";1623070,20;877601013,31;567989085,95;45400877,79;1492614047,25
+"..Setembro/2020";1645841,28;759511770,63;553914784,69;47002156,75;1362074553,35
+"Total";16676312,11;6091450559,18;5236512205,08;470335921,65;11814974998,02
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:
+      
+      Até maio de 2012 estas informações estão disponíveis como "Natureza" e "Esfera Administrativa".
+      De junho de 2012 a outubro de 2015, estão disponíveis tanto como "Natureza" e "Esfera Administrativa", como "Natureza Jurídica" e "Esfera Jurídica".
+      A partir de novembro de 2015, estão disponíveis como "Natureza Jurídica" e "Esfera Jurídica".
+      
+ 
