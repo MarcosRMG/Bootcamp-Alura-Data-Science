@@ -1,0 +1,895 @@
+VARIÁVEL,TIPO,INÍCIO,TAMANHO,DECIMAIS,DESCRIÇÂO,DOMÍNIO,"REGRAS, SALTO"
+ID_ESCOLA,A,1,4,,Identificação da escola,,
+ID_TURMA_N,A,5,4,,Identificação da turma,,
+REGIAO,A,9,1,,Região geográfica,"1;Norte
+2;Nordeste
+3;Sudeste
+4;Sul
+5;Centro-oeste",
+CODMUN,A,10,7,,Código do município,"Capitais: código do municípo do IBGE
+Não capitais: ‘8888888’",
+ESTRATOGEO,A,17,2,,Estrato geográfico da amostra,"01;Municípios não capital da região Norte
+02;Municípios não capital da região Nordeste
+03;Municípios não capital da região Sudeste
+04;Municípios não capital da região Sul
+05;Municípios não capital da região Centro-oeste
+11;Porto Velho
+12;Rio Branco
+13;Manaus
+14;Boa Vista
+15;Belém
+16;Macapá
+17;Palmas
+21;São Luiz
+22;Teresina
+23;Fortaleza
+24;Natal
+25;João Pessoa
+26;Recife
+27;Maceió
+28;Aracajú
+29;Salvador
+31;Minas Gerais
+32;Espírito Santo
+33;Rio de Janeiro
+35;São Paulo
+41;Curitiba
+42;Florianópolis
+43;Porto Alegre
+50;Campo Grande
+51;Cuibá
+52;Goiânia
+53;Brasília",
+CAPITAL,A,19,1,,Capital ou não capital,"1;Capital
+2;Não capital",
+UPA,A,20,7,,Unidade primária de amostragem,,
+PESO,N,27,13,8,Peso do estudante,,
+PUBPRIV,A,40,1,,Dependêcnia administrativa,"1;Privada
+2;Pública",
+B00003,A,41,1,,O aluno precisa ser auxiliado para a marcação dos quesitos?,"1;Sim
+2;Não",Quesito de preenchimento obrigatório
+B00004,A,42,1,,"Prezado(a) estudante, você concorda em participar dessa pesquisa?","1;Sim
+2;Não",Quesito de preenchimento obrigatório
+B01001,A,43,1,,Qual é o seu sexo?,"1;Masculino
+2;Feminino",Quesito de preenchimento obrigatório para quem respondeu SIM no quesito B00004 
+B01002,A,44,1,,Qual é a sua cor ou raça?,"1;Branca
+2;Preta
+3; Amarela
+4;Parda
+5; Indígena",
+B01003,A,45,2,,Qual é a sua idade?,"1;11 ANOS OU MENOS
+2;12 ANOS
+3;13 ANOS
+4;14 ANOS
+5;15 ANOS
+6;16 ANOS
+7;17 ANOS
+8;18 ANOS
+9;19 ANOS OU MAIS",
+B01004,A,47,2,,Qual é o mês do seu aniversário?,"1;Janeiro
+2;Fevereiro
+3;Março
+4;Abril
+5;Maio
+6;Junho
+7;Julho
+8;Agosto
+9;Setembro
+10;Outubro
+11;Novembro
+12;Dezembro",
+B01005,A,49,2,,Em que ano você nasceu?,"1;Antes de 1994
+2;1994
+3;1995
+4;1996
+5;1997
+6;1998
+7;1999
+8;2000
+9;2001 ou mais",
+B01006,A,51,1,,Você mora com sua mãe?,"1;Sim
+2;Não",
+B01007,A,52,1,,Você mora com seu pai?,"1;Sim
+2;Não",
+B01008,A,53,1,,Até que nível de ensino(grau) sua mãe estudou ou estuda?,"1;Minha mãe não estudou
+2;Minha mãe começou o ensino fundamental ou 1º grau, mas não terminou.
+3;Minha mãe terminou o ensino fundamental ou 1º grau
+4;Minha mãe começou o ensino médio ou 2º grau, mas não terminou. 
+5;Minha mãe terminou o ensino médio ou 2°grau
+6;Minha mãecomeçou a faculdade(ensino superior), mas não terminou.
+7;Minha mãe terminou a faculdade(ensino superior). Inclusive pós graduação, mestrado e doutorado em curso ou terminado.
+8;Não sei",
+B01009,A,54,1,,Até que nível de ensino(grau) seu pai estudou?,"1;Meu pai não estudou
+2;Meu pai começou o ensino fundamental
+ou 1º grau, mas não terminou.
+3;Meu pai terminou o ensino fundamental ou 1º grau
+4;Meu pai começou o ensino médio ou 2º
+grau, mas não terminou. 
+5;Meu pai terminou o ensino médio ou 2° grau
+6;Meu pai começou a faculdade (ensino
+superior), mas não terminou.
+7;Meu pai terminou a faculdade(ensino
+Superior). Inclusive pós graduação, mestrado e doutorado em curso ou terminado.
+8;Não sei",
+B01010,A,55,2,,"Contando com você, quantas pessoas moram na sua casa ou apartamento?",,informar quantidade
+B01011,A,57,1,,"Você tem algum trabalho, emprego ou negócio que exerce atualmente?","1;Sim
+2;Não",
+B01012,A,58,1,,"Você recebe dinheiro por este trabalho, emprego ou negócio?","1;Sim
+2;Não",
+B01013,A,59,1,,Na sua casa tem telefone fixo (convencional)?,"1;Sim
+2;Não",
+B01014,A,60,1,,Você tem celular?,"1;Sim
+2;Não",
+B01015,A,61,1,,"Na sua casa tem computador (de mesa, ou netbook, laptop, etc)?  Excluir tablet, smartphone e palm top.","1;Sim
+2;Não",
+B01016,A,62,1,,Você tem acesso à internet em sua casa?,"1;Sim
+2;Não",
+B01017,A,63,1,,Alguém que mora na sua casa tem carro?,"1;Sim
+2;Não",
+B01018,A,64,1,,Alguém que mora na sua casa tem moto?,"1;Sim
+2;Não",
+B01019,A,65,1,,Quantos banheiros com chuveiro têm dentro da sua casa?,"1;Não tem banheiro com chuveiro dentro da minha casa
+2;1 Banheiro
+3;2 Banheiros
+4;3 Banheiros
+5;4 Banheiros ou mais",
+B01020,A,66,1,,"Tem empregado(a) doméstico(a) recebendo dinheiro para fazer o trabalho em sua casa, cinco ou mais dias por semana?","1;Sim
+2;Não",
+B02001,A,67,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu feijão?","1;Não comi feijão nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02002,A,68,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu salgados fritos? Exemplo: batata frita (sem contar a batata de pacote) ou salgados fritos como coxinha de galinha, quibe frito, pastel frito, acarajé, etc.","1;Não comi salgados fritos nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02003,A,69,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu hambúrguer, salsicha, mortadela, salame, presunto, nuggets ou lingüiça?","1;Não comi nenhum desses alimentos nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02004,A,70,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu pelo menos um tipo de legume ou verdura crus ou cozidos? Exemplo: couve, tomate, alface, abóbora, chuchu, brócolis, espinafre, etc. Não inclua batata e aipim(mandioca/macaxeira).","1;Não comi legumes ou verduras nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02005,A,71,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu salada crua? Exemplo: alface, tomate, cenoura, pepino, cebola, etc.","1;Não comi salada crua nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02006,A,72,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu legumes ou verduras cozidos na comida, inclusive sopa? Exemplo: couve, abóbora, chuchu, brócolis, espinafre, cenoura, etc. Não inclua batata e aipim(mandioca/macaxeira).","1;Não comi legumes ou verduras cozidos nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02007,A,73,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu biscoitos salgados ou bolachas salgadas?","1;Não comi biscoitos salgados  ou bolachas salgadas nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02008,A,74,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu biscoitos doces ou bolachas doces?","1;Não comi biscoitos doces ou bolachas doces nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02009,A,75,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu salgadinho de pacote ou batata frita de pacote?","1;Não comi salgadinho de pacote ou batata frita de pacote nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02010,A,76,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu guloseimas(doces, balas, chocolates, chicletes, bombons ou pirulitos)?","1;Não comi guloseimas nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02011,A,77,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você comeu frutas frescas ou salada de frutas?","1;Não comi frutas frescas ou saladas de frutas nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02012,A,78,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você tomou leite? (Excluir leite de soja)","1;Não tomei leite nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02013,A,79,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você tomou refrigerante?","1;Não tomei refrigerante  nos últimos sete dias
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;Todos os dias nos últimos sete dias",
+B02014,A,80,1,,"Ontem, em quais refeições você comeu salada crua? Exemplos: alface, tomate, cenoura, pepino, cebola, etc.","1;Não comi salada crua ontem
+2;No almoço de ontem
+3;No jantar de ontem
+4;No almoço e no jantar de ontem",
+B02015,A,81,1,,"Ontem, em quais refeições você comeu legumes ou verduras cozidos, sem contar batata e aipim(mandioca/macaxeira)?","1;Não comi legumes nem verduras cozidos ontem
+2;No almoço de ontem
+3;No jantar de ontem
+4;No almoço e no jantar de ontem",
+B02016,A,82,1,,"Ontem, quantas vezes você comeu frutas frescas?","1;Não comi frutas frescas ontem 
+2;Uma vez ontem  
+3;Duas vezes ontem
+4;Três vezes ou mais ontem",
+B02017,A,83,1,,"Você costuma almoçar ou jantar-com sua mãe, pai ou responsável?","1;Não
+2;Sim, todos os dias
+3;Sim, 5 a 6 dias por semana
+4;Sim, 3 a 4 dias por semana
+5;Sim, 1 a 2 dias por semana
+6;Sim, mas apenas raramente",
+B02018,A,84,1,,Você costuma comer quando está assistindo à TV ou estudando?,"1;Não
+2;Sim, todos os dias
+3;Sim, 5 a 6 dias por semana
+4;Sim, 3 a 4 dias por semana
+5;Sim, 1 a 2 dias por semana
+6;Sim, mas apenas raramente",
+B02019,A,85,1,,Você costuma tomar o café da manhã?,"1;Não
+2;Sim, todos os dias
+3;Sim, 5 a 6 dias por semana
+4;Sim, 3 a 4 dias por semana
+5;Sim, 1 a 2 dias por semana
+6;Sim, mas apenas raramente",
+B02020,A,86,1,,Você costuma comer a comida oferecida pela escola?,"1;A minha escola não oferece comida 2;Não, não costumo comer a comida oferecida pela escola
+3;Sim, todos os dias
+4;Sim, 3 a 4 dias por semana
+5;Sim, 1 a 2 dias por semana
+6;Sim, mas apenas raramente.",
+B03001,A,87,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você foi ou voltou a pé ou de bicicleta para a escola? (Não considerar garupa ou bicicleta Elétrica)","1:Nenhum dia nos últimos sete dias (0 dia)
+2;1 dia nos últimos sete dias
+3;2 dias nos últimos sete dias
+4;3 dias nos últimos sete dias
+5;4 dias nos últimos sete dias
+6;5 dias nos últimos sete dias
+7;6 dias nos últimos sete dias
+8;7 dias nos últimos sete dias",
+B03002,A,88,1,,"Quando você vai ou volta da escola a pé ou de bicicleta, quanto tempo você gasta? (Se você vai e volta, some o tempo que gasta).","1; Não vou ou volto da escola a pé ou de bicicleta
+2; Menos de 10 minutos por dia
+3;10 a 19 minutos por dia
+4; 20 a 29 minutos por dia
+5; 30 a 39 minutos por dia
+6; 40 a 49 minutos por dia
+7; 50 a 59 minutos por dia
+8; 60 ou mais minutos por dia",
+B03003,A,89,1,,"NOS ÚLTIMOS 7 DIAS, quantos dias você teve aulas de educação física na escola?","1; Nenhum dia nos últimos 7 dias
+2; 1 dia nos últimos 7 dias
+3; 2 dias nos últimos 7 dias
+4; 3 dias nos últimos 7 dias
+5; 4 dias nos últimos 7 dias
+6; 5 a 7 dias nos últimos 7 dias",
+B03004,A,90,1,,"Ao longo deste ano escolar, quantos dias por semana você participou das aulas de educação física?","1; Nenhum dia (0 dia)
+2; 1 dia
+3; 2 dias
+4; 3 dias
+5; 4 dias
+6; 5 ou mais dias",
+B03005,A,91,2,,"NOS ÚLTIMOS 7 DIAS, quanto tempo por dia você fez atividade física ou esporte durante as aulas de educação física na escola?","1; Não fiz aula de educação física na escola
+2; Menos de 10 minutos por dia
+3; 10 a 19 minutos por dia
+4; 20 a 29 minutos por dia
+5; 30 a 39 minutos por dia
+6; 40 a 49 minutos por dia
+7; 50 a 59 minutos por dia
+8; De 1 hora a 1 hora e 19 minutos por dia
+9; 1 hora e 20 minutos ou mais por dia",
+B03006,A,93,1,,"NOS ÚLTIMOS 7 DIAS, sem contar as aulas de educação física da escola, em quantos dias você praticou alguma atividade física como esportes, dança, ginástica, musculação, lutas ou outra atividade?","1; Nenhum dia nos últimos sete dias (0 dia) 
+2; 1 dia nos últimos sete dias
+3; 2 dias nos últimos sete dias
+4; 3 dias nos últimos sete dias
+5; 4 dias nos últimos sete dias
+6; 5 dias nos últimos sete dias
+7; 6 dias nos últimos sete dias
+8; 7 dias nos últimos sete dias","Se B03006 = 1, saltar B03007"
+B03007,A,94,1,,"Normalmente, quanto tempo por dia duram essas atividades (como esportes, dança, ginástica, musculação, lutas ou outra
+atividade) que você faz? (SEM CONTAR as aulas de educação física)","1;  Menos de 10 minutos por dia
+2;  10 a 19 minutos por dia
+3;  20 a 29 minutos por dia
+4;  30 a 39 minutos por dia
+5;  40 a 49 minutos por dia
+6;  50 a 59 minutos por dia
+7;  1 hora ou mais minutos por dia",
+B03008,A,95,1,,"Se você tivesse oportunidade de fazer atividade física na maioria dos dias da semana, qual seria a sua atitude?","1; Não faria mesmo assim
+2; Faria atividade física em alguns dias da semana
+3 Faria atividade física na maioria dos dias da semana
+4; Já faço atividade física em alguns dias da
+semana
+5; Já faço atividade física na maioria dos dias da semana",
+B03009,A,96,2,,"Em um dia de semana comum, quantas horas por dia você assiste a TV? (não contar sábado, domingo e feriado)","1; Não assisto a TV
+2; Menos de 1 hora por dia
+3; Cerca de 1 hora por dia
+4; Cerca de 2 horas por dia
+5; Cerca de 3 horas por dia
+6; Cerca de 4 horas por dia
+7; Cerca de 5 horas por dia
+8; Cerca de 6 horas por dia
+9; Cerca de 7 ou mais horas por dia",
+B03010,A,98,1,,"EM UM DIA de semana comum, quanto tempo você fica  sentado(a), assistindo televisão, usando computador, jogando videogame, conversando com amigos(as) ou
+fazendo outras atividades sentado(a)? (não contar sábado, domingo, feriados e o tempo sentado na escola)","1; Menos de 1 hora por dia
+2; 1 a 2 horas por dia
+3; 3 a 4 horas por dia
+4; 5 a 6 horas por dia
+5; 7 a 8 horas por dia
+6; Mais de 8 horas por dia",
+B03011,A,99,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias você fez atividade física por pelo menos 60 minutos (uma hora) por dia? (SOME TODO O TEMPO QUE VOCÊ GASTOU EM QUALQUER TIPO DE ATIVIDADE FÍSICA)","1;Nenhum (0 dia)
+2; 1 dia
+3; 2 dias
+4; 3 dias
+5; 4 dias
+6; 5 dias
+7; 6 dias
+8; 7 dias",
+B04001,A,100,1,,"Alguma vez na vida, você já fumou cigarro, mesmo uma ou duas tragadas?","1;Sim
+2;Não",
+B04002,A,101,2,,Que idade você tinha quando experimentou fumar cigarro pela primeira vez?,"1; Nunca experimentei cigarro
+2; 7 anos de idade ou menos
+3; 8 ou 9 anos
+4; 10 anos
+5; 11 anos
+6; 12 anos
+7; 13 anos
+8; 14 anos
+9; 15 anos
+10; 16 anos
+11; 17 anos ou mais",
+B04003,A,103,1,,"NOS ÚLTIMOS 30 DIAS, em quantos dias você fumou cigarros?","1; Nunca fumei
+2; Nenhum dia nos últimos 30 dias (0 dia)
+3; 1 ou 2 dias nos últimos 30 dias
+4; 3 a 5 dias nos últimos 30 dias
+5; 6 a 9 dias nos últimos 30 dias
+6; 10 a 19 dias nos últimos 30 dias
+7; 20 a 29 dias nos últimos 30 dias
+8; Todos os dias nos últimos 30 dias",
+B04004,A,104,1,,"NOS ÚLTIMOS 12 MESES, você tentou parar de fumar?","1; Nunca fumei
+2; Não fumei nos últimos 12 meses
+3; Sim
+4; Não",
+B04005,A,105,1,,"NOS ÚLTIMOS 7 DIAS, em quantos dias tiveram pessoas que fumaram na sua presença?","1; Nenhum dia (0 dia)
+2; 1 ou 2 dias
+3; ou 4 dias
+4; 5 ou 6 dias                                                              5; Todos os 7 dias",
+B04006,A,106,1,,Qual de seus pais ou responsáveis fuma?,"1; Nenhum deles
+2; Só meu pai ou responsável do sexo
+masculino
+3; Só minha mãe ou responsável do sexo
+feminino
+4; Meu pai e minha mãe ou responsáveis
+5; Não sei",
+B04007,A,107,1,,Qual seria a reação da sua família se ela soubesse que você fuma cigarros?,"1; Iria se importar muito
+2; Iria se importar um pouco
+3; Não iria se importar
+4; Não sei se ela iria se importar",
+B04008,A,108,1,,"NOS ÚLTIMOS 30 DIAS quantos dias você usou outros produtos de tabaco: cigarros de palha ou enrolados a mão, charuto, cachimbo, cigarrilha, cigarro indiano ou bali,narguilé, rapé, fumo de mascar, etc? (não incluir cigarro comum)","1; Nenhum dia (0 dia)
+2; 1 ou 2 dias
+3; 3 a 5 dias
+4; 6 a 9 dias
+5; 10 a 19 dias
+6; 20 a 29 dias
+7; Todos os 30 dias",
+B05001,A,109,1,,"Alguma vez na vida, você já experimentou bebida alcoólica?","1;Sim
+2;Não",
+B05002,A,110,1,,"Alguma vez na vida você tomou uma dose de bebida alcoólica? (uma dose equivale a uma lata de cerveja ou uma taça de vinho ou uma dose de cachaça ou uísque, etc)","1;Sim
+2;Não",
+B05003,A,111,1,,"Que idade você tinha quando tomou a primeira dose de bebida alcoólica? (uma dose equivale a uma lata de cerveja ou uma taça de vinho ou uma dose de cachaça ou uísque,etc)","1; Nunca tomei bebida alcoólica
+2; 7 anos ou menos anos
+3; 8 ou 9 anos
+4;10 ou 11 anos
+5;12 ou 13 anos
+6;14 ou15 anos
+7;16 ou mais anos",
+B05004,A,112,1,,"NOS ÚLTIMOS 30 DIAS, em quantos dias você tomou pelo menos um copo ou uma dose de bebida alcoólica? (uma dose equivale a uma lata de cerveja ou uma taça de vinho ou
+uma dose de cachaça ou uísque, etc)","1;  Nenhum dia nos últimos 30 dias (0 dias)
+2;  1 ou 2 dias nos últimos 30 dias
+3;  3 a 5 dias nos últimos 30 dias
+4;  6 a 9 dias nos últimos 30 dias
+5;  10 a 19 dias nos últimos 30 dias
+6;  20 a 29 dias nos últimos 30 dias
+7;  Todos os dias nos últimos 30 dias",
+B05005,A,113,1,,"NOS ÚLTIMOS 30 DIAS, nos dias em que você tomou alguma bebida alcoólica,quantos copos ou doses você tomou por dia?","1; Não tomei nenhuma bebida alcoólica nos últimos 30 dias
+2; Menos de um copo ou dose nos últimos 30 dias
+3; 1 copo ou 1 dose nos últimos 30 dias
+4; 2 copos ou 2 doses nos últimos 30 dias
+5; 3 copos ou 3 doses nos últimos 30 dias
+6; 4 copos ou 4 doses nos últimos 30 dias
+7; 5 copos ou mais ou 5 doses ou mais nos últimos 30 dias",
+B05006,A,114,1,,"NOS ÚLTIMOS 30 DIAS, na maioria das vezes, como você conseguiu a bebida que tomou?","1; Não tomei nenhuma bebida alcoólica nos
+últimos 30 dias
+2; Comprei no mercado, loja, bar ou
+supermercado
+3; Comprei de um vendedor de rua
+4; Dei dinheiro a alguém que comprou para
+mim
+5; Consegui com meus amigos
+6; Consegui em casa
+7; Consegui em uma festa
+8; Consegui de outro modo",
+B05007,A,115,1,,"Na sua vida, quantas vezes você bebeu tanto que ficou realmente bêbado(a)?","1; Nenhuma vez na vida
+2; 1 ou 2 vezes na vida
+3; 3 a 5 vezes na vida
+4; 6 a 9 vezes na vida
+5; 10 ou mais vezes na vida",
+B05008,A,116,1,,"Qual seria a reação de sua família, se você chegasse em casa bêbado(a)?","1; Iria se importar muito
+2; Iria se importar um pouco
+3; Não iria se importar
+4; Não sei se ela iria se importar",
+B05009,A,117,1,,"Na sua vida, quantas vezes você teve problemas com sua família ou amigos, perdeu aulas ou brigou porque tinha bebido?","1; Nenhuma vez na vida
+2; 1 ou 2 vezes na vida
+3; 3 a 5 vezes na vida
+4; 6 a 9 vezes na vida
+5; 10 ou mais vezes na vida",
+B06001,A,118,1,,"Alguma vez na vida, você usou alguma droga, tais como: maconha, cocaína, crack, cola, loló, lança perfume, ecstasy, oxy, etc?","1;Sim
+2;Não",
+B06002,A,119,2,,"Que idade você tinha quando usou droga tais como maconha, cocaína, crack, cola, loló,lança perfume, ecstasy, oxy ou outra pela primeira vez?  VER A DOCUMENTAÇÃO ""DROGAS ILÍCITAS.DOC""","01; Nunca usei drogas
+02; 7 anos ou menos
+03; 8 anos
+04; 9 anos
+05; 10 anos
+06; 11 anos
+07; 12 anos
+08; 13 anos
+09; 14 anos
+10; 15 anos
+11; 16 anos
+12; 17 anos ou mais",
+B06003,A,121,1,,"Nos últimos 30 dias, quantas vezes você usou droga tais como maconha, cocaína,crack, cola, loló, lança perfume, ecstasy, oxy, etc?  VER A DOCUMENTAÇÃO ""DROGAS ILÍCITAS.DOC""","1; Nunca usei drogas 
+2; Nenhum dia nos últimos 30 dias (0 dia)
+3; 1 ou 2 dias nos últimos 30 dias
+4; 3 a 5 dias nos últimos 30 dias
+5; 6 a 9 dias nos últimos 30 dias
+6; 10 ou mais dias nos últimos 30 dias",
+B06004,A,122,1,,"Nos últimos 30 dias, quantas vezes você usou maconha?","1; Nenhuma vez (0 vez)
+2; 1 ou 2 vezes
+3; 3 a 9 vezes
+4; 10 ou mais vezes",
+B06005,A,123,1,,"Nos últimos 30 dias, quantas vezes você usou crack?","1; Nenhuma vez (0 vez)
+2; 1 ou 2 vezes
+3; 3 a 9 vezes
+4; 10 ou mais vezes",
+B07001,A,124,1,,"NOS ÚLTIMOS 30 DIAS, em quantos dias você faltou às aulas ou à escola sem permissão dos seus pais ou responsáveis?","1; Nenhum dia (0 dia)
+2; 1 ou 2 dias
+3; 3 a 5 dias
+4; 6 a 9 dias
+5; 10 ou mais dias",
+B07002,A,125,1,,"NOS ÚLTIMOS 30 DIAS, com que frequência seus pais ou responsáveis sabiam realmente o que você estava fazendo em seu tempo livre?","1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maior parte do tempo
+5; Sempre",
+B07003,A,126,1,,"NOS ÚLTIMOS 30 DIAS, com que frequência os seus pais ou responsáveis verificaram se os seus deveres de casa (lição
+de casa) foram feitos?","1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maior parte do tempo
+5; Sempre",
+B07004,A,127,1,,"NOS ÚLTIMOS 30 DIAS, com que frequência seus pais ou responsáveis entenderam seus problemas e preocupações?","1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maior parte do tempo
+5; Sempre",
+B07005,A,128,1,,"NOS ÚLTIMOS 30 DIAS, com que frequência seus pais ou responsáveis mexeram em suas coisas sem a sua concordância?","1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maior parte do tempo
+5; Sempre",
+B07006,A,129,1,,"NOS ÚLTIMOS 30 DIAS, com que frequência os colegas de sua escola trataram você bem e/ou foram prestativos contigo?","1; Nenhuma vez nos últimos 30 dias (0 vez)
+2; Raramente nos últimos 30 dias
+3; Às vezes nos últimos 30 dias
+4; Na maior parte das vezes nos últimos 30 dias
+5; Sempre nos últimos 30 dias",
+B07007,A,130,1,,"NOS ÚLTIMOS 30 DIAS, com que frequência algum dos seus colegas de escola te esculacharam, zoaram, mangaram 
+intimidaram ou caçoaram tanto que você ficou magoado, incomodado, aborrecido,ofendido, ou humilhado?","1; Nenhuma vez nos últimos 30 dias (0 vez)
+2; Raramente nos últimos 30 dias
+3; Às vezes nos últimos 30 dias
+4; Na maior parte das vezes nos últimos 30
+dias
+5; Sempre nos últimos 30 dias","Se B07007 = 1, saltar B07008"
+B07008,A,131,1,,"NOS ÚLTIMOS 30 dias, qual o motivo/causa de seus colegas terem te esculachado, zombado, zoado, caçoado, mangado, intimidado ou humilhado?","1; A minha cor ou raça
+2; A minha religião
+3; A aparência do meu rosto
+4; A aparência do meu corpo
+5; A minha orientação sexual
+6; A minha região de origem
+7; Outros motivos/causas",
+B07009,A,132,1,,"NOS ÚLTIMOS 30 DIAS, você esculachou, zombou, mangou, intimidou ou caçoou algum de seus colegas da escola tanto que ele ficou magoado, aborrecido,ofendido ou humilhado?","1;Sim
+2;Não",
+B08001,A,133,1,,Você já teve relação sexual (transou) alguma vez?,"1;Sim
+2;Não",
+B08002,A,134,2,,Que idade você tinha quando teve relação sexual (transou) pela primeira vez?,"1;Nunca tive relação sexual
+2; 9 anos ou menos
+3;10 anos
+4; 11 anos
+5; 12 anos
+6; 13 anos                                                             7; 14 anos
+8; 15 anos
+9; 16 anos ou mais",
+B08003,A,136,1,,"Na sua vida, você já teve relação sexual (transou) com quantas pessoas?","1; Nunca tive relação sexual na vida
+2; 1 pessoa
+3; 2 pessoas
+4; 3 pessoas
+5; 4 pessoas
+6; 5 pessoas
+7; 6 ou mais pessoas",
+B08004,A,137,1,,"NOS ÚLTIMOS 12 MESES, você teve relações sexuais (transou)?","1;Sim
+2;Não",
+B08005,A,138,1,,"Na última vez que você teve relação sexual (transou), você ou seu (sua) parceiro (a) usou algum método para evitar a gravidez e/ou Doenças Sexualmente Transmissíveis (DST) ?","1; Nunca tive relação sexual
+2; Sim
+3; Não
+4; Não sei",
+B08006,A,139,1,,"Na última vez que você teve relação sexual (transou), você ou seu (sua) parceiro(a) usou camisinha (preservativo)?","1; Nunca tive relação sexual
+2; Sim
+3; Não
+4; Não sei",
+B08007,A,140,1,,"Na última vez que você teve relação sexual (transou), você ou seu (sua) parceiro (a) usou algum outro método para evitar a gravidez (Não contar camisinha)?","1; Nunca tive relação sexual
+2; Sim
+3; Não
+4; Não sei",
+B08008,A,141,1,,"Na escola, você já recebeu orientação sobre prevenção de gravidez?","1; Sim
+2; Não
+3; Não sei",
+B08009,A,142,1,,"Na escola, você já recebeu orientação sobre Aids ou outras Doenças Sexualmente Transmissíveis(DST)?","1; Sim
+2; Não
+3; Não sei",
+B08010,A,143,1,,"Na escola, você já recebeu orientação sobre como conseguir camisinha (preservativo) gratuitamente?","1; Sim
+2; Não
+3; Não sei",
+B09001,A,144,1,,"NOS ÚLTIMOS 30 DIAS, em quantos dias você deixou de ir à escola porque não se sentia seguro no caminho de casa para a
+escola ou da escola para casa?","1; Nenhum dia nos últimos 30 dias
+2; 1 dia nos últimos 30 dias
+3; 2 dias nos últimos 30 dias
+4; 3 dias nos últimos 30 dias
+5; 4 dias nos últimos 30 dias
+6; 5 dias ou mais nos últimos 30 dias",
+B09002,A,145,1,,"NOS ÚLTIMOS 30 DIAS, em quantos dias você não foi à escola porque não se sentia seguro na escola?","1; Nenhum dia nos últimos 30 dias
+2; 1 dia nos últimos 30 dias
+3; 2 dias nos últimos 30 dias
+4; 3 dias nos últimos 30 dias
+5; 4 dias nos últimos 30 dias
+6; 5 dias ou mais nos últimos 30 dias",
+B09003,A,146,1,,"NOS ÚLTIMOS 30 DIAS, quantas vezes você foi agredido fisicamente por um adulto da sua família?","1; Nenhuma vez nos últimos 30 dias
+2; 1 vez nos últimos 30 dias
+3; 2 ou 3 vezes nos últimos 30 dias
+4; 4 ou 5 vezes nos últimos 30 dias
+5; 6 ou 7 vezes nos últimos 30 dias
+6; 8 ou 9 vezes nos últimos 30 dias
+7; 10 ou 11 vezes nos últimos 30 dias
+8; 12 vezes ou mais nos últimos 30 dias",
+B09004,A,147,1,,"NOS ÚLTIMOS 30 DIAS, você esteve envolvido (a) em alguma briga em que alguma pessoa usou arma de fogo, como
+revólver ou espingarda? ","1;Sim
+2;Não",
+B09005,A,148,1,,"NOS ÚLTIMOS 30 DIAS, você este envolvido (a) em alguma briga em que alguma pessoa usou alguma outra arma como faca, canivete, peixeira, pedra, pedaço de pau ou garrafa?","1;Sim
+2;Não",
+B09006,A,149,1,,"NOS ÚLTIMOS 30 DIAS, quantas vezesvocê usou o cinto de segurança quando estava em um carro ou outro veículo motorizado dirigido por outra pessoa (excluir ônibus)?","1; Não andei em veículo dirigido por outra
+pessoa nos últimos 30 dias
+2; Nunca nos últimos 30 dias
+3; Raramente nos últimos 30 dias
+4; Às vezes nos últimos 30 dias
+5; Na maioria das vezes nos últimos 30 dias
+6; Sempre nos últimos 30 dias",
+B09007,A,150,1,,"NOS ÚLTIMOS 30 DIAS, quantas vezes você usou um capacete ao andar de motocicleta?","1; Não andei de motocicleta nos últimos 30 dias
+2; Nenhuma vez nos últimos 30 dias
+3; Raramente nos últimos 30 dias
+4; Às vezes nos últimos 30 dias
+5; Na maioria das vezes nos últimos 30 dias
+6; Sempre nos últimos 30 dias",
+B09008,A,151,1,,"NOS ÚLTIMOS 30 DIAS, quantas vezes você dirigiu um veículo motorizado de transporte (carro, motocicleta, voadeira,
+barco, etc)?","1; Não dirigi carro ou outro veículo nos
+últimos 30 dias
+2;  1 vez nos últimos 30 dias
+3;  2 ou 3 vezes nos últimos 30 dias
+4;  4 ou 5 vezes nos últimos 30 dias
+5;  6 ou mais vezes nos últimos 30 dias",
+B09009,A,152,1,,"NOS ÚLTIMOS 30 DIAS, quantas vezes você andou em carro ou outro veículo motorizado dirigido por alguém que tinha consumido alguma bebida alcoólica?","1;  Nenhuma vez nos últimos 30 dias
+2;  1 vez nos últimos 30 dias
+3;  2 ou 3 vezes nos últimos 30 dias
+4;  4 ou 5 vezes nos últimos 30 dias
+5;  6 ou mais vezes nos últimos 30 dias",
+B09010,A,153,1,,NOS ÚLTIMOS 12 meses quantas vezes você foi agredido (a) fisicamente?,"1; Nenhuma vez (0 vez)
+2;  1 vez
+3;  2 a 3 vezes
+4;  4 a 5 vezes
+5;  6 a 7 vezes
+6;  8 a 9 vezes
+7;  10 a 11 vezes
+8;  12 ou mais vezes",
+B09011,A,154,1,,Nos últimos 12 meses quantas vezes você se envolveu em briga (uma luta física)?,"1; Nenhuma vez (0 vez)
+2;  1 vez
+3;  2 a 3 vezes
+4;  4 a 5 vezes
+5;  6 a 7 vezes
+6;  8 a 9 vezes
+7;  10 a 11 vezes
+8;  12 ou mais vezes",
+B09012,A,155,1,,"Nos últimos 12 meses, quantas vezes você foi seriamente ferido?","1; Nenhuma vez (0 vez)
+2;  1 vez
+3;  2 a 3 vezes
+4;  4 a 5 vezes
+5;  6 a 7 vezes
+6;  8 a 9 vezes
+7;  10 a 11 vezes
+8;  12 ou mais vezes",
+B09013,A,156,1,,"NOS ÚLTIMOS 12 meses, qual foi o ferimento/lesão mais sério que aconteceu com você?","1; Não tive ferimento/lesão séria nos últimos 12 meses                                                                  2; Tive um osso quebrado ou junta deslocada
+3; Tive um corte ou perfuração
+4; Tive um traumatismo ou outra lesão na
+cabeça ou pescoço e, desmaiei ou não
+consegui respirar
+5; Tive uma queimadura grave
+6; Tive outra lesão ou machucado",
+B09014,A,157,1,,"NOS ÚLTIMOS 12 meses, qual foi a principal causa do ferimento/lesão mais sério que aconteceu com você?","1; Foi um acidente ou atropelamento por um veículo motorizado                                                            2; Foi uma queda
+3; Foi algo que caiu sobre mim ou me atingiu
+4; Foi um ataque que sofri ou briga com alguém
+5; Foi um incêndio ou a proximidade com
+algo quente
+5; Foi a inalação ou algo que engoli e me fez mal
+6; Foi outra causa","Se B09013=1, pular B09014"
+B10001,A,158,1,,"Nos últimos 30 dias, quantas vezes por dia você usualmente escovou os dentes?","1; Não escovei meus dentes nos últimos 30 dias
+2; Uma vez por dia
+3; Duas vezes por dia
+4; Três vezes por dia
+5; Quatro ou mais vezes por dia
+6; Não escovei meus dentes diariamente",
+B10002,A,159,1,,"NOS ÚLTIMOS SEIS MESES, você teve dor de dente? (excluir dor de dente causada por uso de aparelho)","1; Sim
+2; Não
+3; Não sei / não me lembro",
+B10003,A,160,1,,Nos últimos 12 meses quantas vezes você foi ao dentista?,"1; Nenhuma (0 vez)
+2;1 vez
+3; 2 vezes
+4; 3 ou mais vezes",
+B10004,A,161,1,,Nos últimos 30 dias com que frequência você lavou as mãos antes de comer?,"1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maioria das vezes
+5;  Sempre",
+B10005,A,162,1,,Nos últimos 30 dias com que frequência você lavou as mãos após usar o banheiro ou o vaso sanitário?,"1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maioria das vezes
+5;  Sempre",
+B10006,A,163,1,,Nos últimos 30 dias com que frequência você usou sabão ou sabonete quando lavou suas mãos?,"1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maioria das vezes
+5;  Sempre",
+B11001,A,164,1,,"Quanto ao seu corpo, você se considera:","1; Muito magro(a)
+2; Magro(a)
+3; Normal
+4; Gordo(a)
+5; Muito Gordo(a)",
+B11002,A,165,1,,O que você está fazendo em relação a seu peso?,"1; Não estou fazendo nada
+2; Estou tentando perder peso
+3; Estou tentando ganhar peso
+4; Estou tentando manter o mesmo peso",
+B11003,A,166,1,,"NOS ÚLTIMOS 30 DIAS, você vomitou ou tomou laxantes para perder peso ou evitar ganhar peso?","1;Sim
+2;Não",
+B11004,A,167,1,,"NOS ÚLTIMOS 30 DIAS, você tomou algum remédio, fórmula ou outro produto para perder ou manter seu peso, sem acompanhamento médico?","1;Sim
+2;Não",
+B11005,A,168,1,,"NOS ÚLTIMOS 30 DIAS, você tomou algum remédio, fórmula ou outro produto para ganhar peso ou massa muscular sem acompanhamento médico?","1;Sim
+2;Não",
+B12001,A,169,1,,Durante os últimos 12 meses com que frequência tem se sentido sozinho(a)?,"1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maioria das vezes
+5;  Sempre",
+B12002,A,170,1,,"Durante os últimos doze meses, com que frequência você não conseguiu dormir à noite porque algo o(a) preocupava muito?","1; Nunca
+2; Raramente
+3; Às vezes
+4; Na maioria das vezes
+5;  Sempre",
+B12003,A,171,1,,Quantos amigos ou amigas próximos você tem?,"1; 0 (nenhum)
+2; 1
+3; 2
+4; 3 ou mais",
+B13001,A,172,1,,Nos últimos 12 meses você procurou algum serviço ou profissional de saúde para atendimento relacionado à própria saúde?,"1;Sim
+2;Não",
+B13002,A,173,2,,"NOS ÚLTIMOS 12 MESES, qual serviço de saúde você procurou mais frequentemente?","1; Posto de Saúde (Unidade Básica de Saúde)
+2; Consultório médico particular
+3; Consultório odontológico
+4; Consultório de outro profissional de saúde (fonoaudiólogo, psicólogo, etc.)
+5; Serviço de especialidades médicas ou Policlínica
+6; Pronto-socorro ou emergência
+7; Hospital
+8; Laboratório ou clínica para exames
+complementares
+9; Serviço de atendimento domiciliar
+10; Farmácia
+11; Outro","Se B13001= 2, pular B13002, B13003 e B13004"
+B13003,A,175,1,,"Nos últimos 12 meses, quantas vezes você procurou por algum Posto de Saúde (Unidade Básica de Saúde)?","1; Nenhuma vez 
+2;  1 ou 2 vezes nos últimos 12 meses
+3;  3 a 5 vezes nos últimos 12 meses
+4;  6 a 9 vezes nos últimos 12 meses
+5;  10 ou mais vezes nos últimos 12 meses",
+B13004,A,176,1,,"Você foi atendido, na última vez que procurou algum Posto de Saúde (Unidade Básica de Saúde), nestes últimos 12 meses?","1;Sim
+2;Não",
+B14001,A,177,1,,"Nos últimos 12 meses, você teve chiado (ou piado) no peito?","1;Sim
+2;Não",
+B14002,A,178,1,,Você teve asma alguma vez na vida?,"1;Sim
+2;Não",
+B16001,,179,1,,O que você achou deste questionário?,"1; Muito fácil de responder
+2; Fácil de responder
+3; Nem fácil nem difícil de responder
+4; Difícil de responder
+5; Muito difícil de responder",
+PESO_ESCOLA,N,180,13,8,Peso amostral da escola,,
+DEPENDADM,A,193,10,,Dependêcnia administrativa,"Estadual
+Municipal
+Federal
+Privada
+",
+E01P01,A,203,1,,Qual a faixa de valor da mensalidade do 9º ano nesta escola?,"1; até R$ 311,00
+2; mais de R$ 311,00 até R$ 622,00
+3; mais de R$ 622,00 até R$ 1.244,00
+4; mais de R$ 1.244,00 até R$ 2.488,00
+5; mais de R$ 2.488,00 até R$ 4.576,00
+6; mais de R$ 4.576,00",Opção de resposta somente para escolas privadas
+E01P02,N,204,8,,Total de alunos matriculados nesta escola.,Informar valor,Não aceitar menos de 15 alunos
+E01P03,A,212,1,,A escola atende a quais níveis de ensino?,"1; Creche
+2; Educação infantil                                                3; Ensino fundamental
+4; Ensino médio
+5; Ensino técnico",(múltipla resposta)                                            E01P031 a E01P035    E01P03 = null
+E01P04,N,213,3,,Qual a quantidade de salas de aula desta escola?,Informar valor,Não aceitar o zero
+E01P05,A,216,1,,A escola tem biblioteca?,"1; Sim
+2; Não",
+E01P06,A,217,1,,A escola tem sala ou laboratório de informática para uso dos alunos?,"1; Sim
+2; Não","Se E01P06 = 2, pular E01P07"
+E01P07,N,218,3,,Quantos computadores em funcionamento há para o uso dos alunos na sala ou laboratório de informática?,Informar valor,não aceitar zero
+E01P08,A,221,1,,"Os alunos têm acesso direto à computadores (notebooks, PC, palm, tablets) da escola na sala de aula?","1; Sim
+2; Não","Se E01P08 = 2, pular E01P09"
+E01P09,A,222,1,,Os alunos têm acesso à internet através de equipamentos da escola?,"1; Sim
+2; Não",
+E01P10,A,223,1,,A escola tem sala para os recursos de mídia/comunicação?,"1; Sim
+2; Não",
+E01P11,A,224,1,,A escola tem cantina?,"1; Sim
+2; Não","Se E01P11 = 2, pular E01P12"
+E01P12,A,225,2,,Marque as opções de bebidas e produtos alimentícios vendidos na cantina.,"1; Refrigerante
+2; Suco / refresco natural de frutas
+3; Bebidas açucaradas ( suco artificial, chá gelado, isotônicos, águas com sabor, energéticos, leite de
+soja, etc. Não contar bebida láctea)
+4; Leite ou bebida a base de leite (excluir leite de soja)
+5; Salgados fritos (coxinha, pastel, quibe, batata frita, etc)
+6; Salgados de forno (assado: pastel, empada, esfirra, joelho, etc)
+7; Salgadinhos industrializados vendidos em pacotes, tipo ""chips"" e outros (incluindo batata frita de
+pacote)
+8; Biscoitos ou bolachas salgadas ou doces
+9; Balas, confeitos, doces, chocolates, sorvetes, dim-dim, sacolê, chupe-chupe e outros
+10; Sanduiches (cachorro quente, misto quente, hambúrguer, outros)
+11; frutas frescas ou salada de frutas",(múltipla resposta)                                                                       E01P121 a E01P1211
+E01P13,A,227,1,,Existe algum ponto alternativo de venda de produtos alimentícios dentro ou na entrada da escola? (ex:ambulante/carrocinha),"1; Sim
+2; Não","Se E01P13 = 2, pular E01P14"
+E01P14,A,228,2,,Marque as opções de bebidas e produtos alimentícios vendidos no ponto alternativo de vendas.,"1; Refrigerante
+2; Suco / refresco natural de frutas
+3; Bebidas açucaradas ( suco artificial, chá gelado, isotônicos, águas com sabor, energéticos, leite de
+soja, etc. Não contar bebida láctea)
+4; Leite ou bebida a base de leite (excluir leite de soja)
+5; Salgados fritos (coxinha, pastel, quibe, batata frita, etc)
+6; Salgados de forno (assado: pastel, empada, esfirra, joelho, etc)
+7; Salgadinhos industrializados vendidos em pacotes, tipo ""chips"" e outros (incluindo batata frita de
+pacote)
+8; Biscoitos ou bolachas salgadas ou doces
+9; Balas, confeitos, doces, chocolates, sorvetes, dim-dim, sacolê, chupe-chupe e outros
+11; Sanduiches (cachorro quente, misto quente, hambúrguer, outros)
+12; frutas frescas ou salada de frutas",(múltipla resposta)                                                                           E01P141 a E01P1412
+E01P15,A,230,1,,A escola tem quadra de esportes?,"1; Sim
+2; Não","Se E01P15 = 2, pular E01P16 e E01P17"
+E01P16,A,231,1,,Quantas quadras de esporte a escola tem?,"1; uma
+2; duas
+3; três ou mais",
+E01P17,A,232,1,,Quantas quadras de esporte desta escola são cobertas?,"1; 0
+2; 1
+3; 2
+4; 3 ou mais
+5; Todas",Crítica: Quantidade de quadras cobertas maior que a quantidade de quadras informadas.
+E01P18,A,233,1,,A escola tem pista para corrida/atletismo?,"1; Sim
+2; Não",
+E01P19,A,234,1,,O pátio da escola é utilizado para prática regular de atividade física com instrutor?,"1;Sim
+2; Não
+3; Não tem pátio",
+E01P20,A,235,1,,A escola tem piscina em condições de uso?,"1;Sim
+2; Não
+3; Não tem piscina",
+E01P21,A,236,1,,A escola tem vestiário em condições de uso para os alunos?,"1;Sim
+2; Não
+3; Não tem vestiário",
+E01P22,A,237,1,,A escola oferece atividades esportivas para os alunos fora do horário de aula regular?,"1; Sim, gratuito
+2; Sim, pago
+3; Sim, pago e gratuito
+4; Não",
+E01P23,A,238,1,,Esta escola tem conselho escolar?,"1; Sim
+2; Não","Se E01P23 = 2, pular E01P24"
+E01P24,A,239,2,,Com que frequência o conselho escolar se reúne?,"1; Pelo menos uma vez por semana
+2; Pelo menos uma vez por quinzena
+3; Pelo menos uma vez por mês
+4; Pelo menos uma vez por bimestre
+5; Pelo menos uma vez por trimestre
+6; Pelo menos uma vez por quadrimestre
+7; Pelo menos uma vez por semestre
+8; Pelo menos uma vez por ano
+9; Não se reúne há mais de 1 ano",
+E01P25,A,241,1,,"Nos últimos 12 meses, com que frequência a localidade onde a escola está situada foi considerada área de risco em termos de violência (roubos, furtos, assaltos, troca de tiros, consumo de drogas, homicídios, etc.)?","1; Nenhuma vez
+2; Raramente
+3; Às vezes
+4; A maior parte do tempo
+5; Em todo período",
+E01P26,A,242,1,,A escola tem conhecimento de consumo de cigarro por professores nas suas dependências?,"1; Sim
+2; Não",
+E01P27,A,243,1,,A escola tem conhecimento de consumo de cigarro por alunos nas suas dependências?,"1; Sim
+2; Não",
+E01P28,A,244,2,,A escola tem alguma política sobre proibição do uso do tabaco nas suas dependências?,"1; Sim
+2; Não",
+E01P29,A,246,1,,Variável não utilizada,(null),
+E01P30,A,247,27,,Variável não utilizada,(null),
+E01P31,A,274,20,,Variável não utilizada,(null),
+E01P32,A,294,2,,Variável não utilizada,(null),
+E01P33,A,296,1,,Variável não utilizada,(null),
+E01P34,A,297,1,,Variável não utilizada,(null),
+E01P35,A,298,2,,Variável não utilizada,(null),
+E01P36,A,300,1,,Variável não utilizada,(null),
+E01P37,A,301,2,,Variável não utilizada,(null),
+E01P38,A,303,1,,Variável não utilizada,(null),
+E01P39,A,304,1,,Variável não utilizada,(null),
+E01P031,A,305,1,,A escola atende a Creche,,"E01P03 = 1 , E01P031 = 1"
+E01P032,A,306,1,,A escola atende a Educação infantil,,"E01P03 =2 , E01P031 = 1"
+E01P033,A,307,1,,A escola atende a Ensino fundamental,,"E01P03 = 3 , E01P031 = 1"
+E01P034,A,308,1,,A escola atende a Ensino médio,,"E01P03 = 4 , E01P031 = 1"
+E01P035,A,309,1,,A escola atende a Ensino técnico,,"E01P03 = 5 , E01P031 = 1"
+E01P121,A,310,1,,Refrigerantes são vendidos na cantina.,,"E01P12 = 01 , E01P121 = 1"
+E01P122,A,311,1,,Suco / refresco natural de frutas são vendidos na cantina.,,"E01P12 = 02 , E01P122 = 1"
+E01P123,A,312,1,,"Bebidas açucaradas (suco artificial, chá gelado, isotônicos, águas com sabor, energéticos, leite de soja, etc. Não contar bebida láctea) são vendidos na cantina.",,"E01P12 = 03 , E01P123 = 1"
+E01P124,A,313,1,,Leite ou bebida a base de leite (excluir leite de soja) são vendidos na cantina.,,"E01P12 = 04 , E01P124 = 1"
+E01P125,A,314,1,,"Salgados fritos (coxinha, pastel, quibe, batata frita, etc) são vendidos na cantina.",,"E01P12 =05 , E01P125 = 1"
+E01P126,A,315,1,,"Salgados de forno (assado: pastel, empada, esfirra, joelho, etc) são vendidos na cantina.",,"E01P12 = 06 , E01P126 = 1"
+E01P127,A,316,1,,"Salgadinhos industrializados vendidos em pacotes, tipo chips e outros (incluindo batata frita de pacote) são vendidos na cantina.",,"E01P12 = 07 , E01P127 = 1"
+E01P128,A,317,1,,Biscoitos ou bolachas salgadas ou doces são vendidos na cantina.,,"E01P12 =08 , E01P128 = 1"
+E01P129,A,318,1,,"Balas, confeitos, doces, chocolates, sorvetes, dim-dim, sacolê, chupe-chupe e outros são vendidos na cantina.",,"E01P12 = 09 , E01P129 = 1"
+E01P1210,A,319,1,,"Sanduíches (cachorro quente, misto quente, hambúrguer, outros) são vendidos na cantina.",,"E01P12 = 10 , E01P1210 = 1"
+E01P1211,A,320,1,,frutas frescas ou salada de frutas são vendidos na cantina.,,"E01P12 = 11 , E01P1211 = 1"
+E01P1212,A,321,1,,Variável não utilizada,(null),
+E01P141,A,322,1,,Refrigerantes são vendidos no ponto alternativo de vendas.,,"E01P14 = 01 , E01P141 = 1"
+E01P142,A,323,1,,Suco / refresco natural de frutas são vendidos no ponto alternativo de vendas.,,"E01P14 = 02 , E01P142 = 1"
+E01P143,A,324,1,,"Bebidas açucaradas (suco artificial, chá gelado, isotônicos, águas com sabor, energéticos, leite de
+soja, etc. Não contar bebida láctea) são vendidos no ponto alternativo de vendas.",,"E01P14 = 03 , E01P143 = 1"
+E01P144,A,325,1,,Leite ou bebida a base de leite (excluir leite de soja) são vendidos no ponto alternativo de vendas.,,"E01P14 = 04 , E01P144 = 1"
+E01P145,A,326,1,,"Salgados fritos (coxinha, pastel, quibe, batata frita, etc) são vendidos no ponto alternativo de vendas.",,"E01P14 =05 , E01P145 = 1"
+E01P146,A,327,1,,"Salgados de forno (assado: pastel, empada, esfirra, joelho, etc) são vendidos no ponto alternativo de vendas.",,"E01P14 = 06 , E01P146 = 1"
+E01P147,A,328,1,,"Salgadinhos industrializados vendidos em pacotes, tipo chips e outros (incluindo batata frita de pacote) são vendidos no ponto alternativo de vendas.",,"E01P14 = 07 , E01P147 = 1"
+E01P148,A,329,1,,Biscoitos ou bolachas salgadas ou doces são vendidos no ponto alternativo de vendas.,,"E01P14 =08 , E01P148 = 1"
+E01P149,A,330,1,,"Balas, confeitos, doces, chocolates, sorvetes, dim-dim, sacolê, chupe-chupe e outros são vendidos no ponto alternativo de vendas.",,"E01P14 = 09 , E01P149 = 1"
+E01P1410,A,331,1,,"Sanduíches (cachorro quente, misto quente, hambúrguer, outros) são vendidos no ponto alternativo de vendas.",,"E01P14 = 10 , E01P1410 = 1"
+E01P1411,A,332,1,,frutas frescas ou salada de frutas são vendidos no ponto alternativo de vendas.,,"E01P14 = 11 , E01P1411 = 1"
+E01P1412,A,333,1,,Variável não utilizada,(null),
