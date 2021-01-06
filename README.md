@@ -12,3 +12,11 @@ Seleção dos dados no DATASUS (https://datasus.saude.gov.br/) utilizando o tabn
 
 ## Módulo 3: Estatística com Python para análise de dados
 Por meio dos dados da Pesquisa Nacional de Saúde do Escolar - PeNSE 2015 foram estudados os conceitos de análise descritiva e testes estatísticos, por meio de ferramentas como tabela de frequência, cruzamento de dados com o Pandas Crosstab, histogramas e boxplots, medidas de centralildade e dispersão e intervalo de confiança e testes estatísticos. No projeto do módulo estudei os resultados da amostra 1 e 2 da pesquisa PeNSE 2015, dentre os resultados foi constatado que para a mostra 1 a gravidez influencia na pretensão do grau de escolaridade da estudante. 
+
+![alt_text](https://github.com/MarcosRMG/Bootecamp-Alura-Data-Science/blob/main/img/engravidaram.png)
+
+![alt_text](https://github.com/MarcosRMG/Bootecamp-Alura-Data-Science/blob/main/img/nao_engravidaram.png)
+
+P-value é menor do que 0.05, logo a hipótese nula (ambas as distribuições são iguais) deve ser rejeitada, deste modo a distribuição da pretensão de escolaridade das estudantes que já engravidaram alguma vez e das que nunca engravidaram são diferentes.
+
+Estatisticamente a gravidez altera a pretensão do grau de escolaridade.
