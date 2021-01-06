@@ -19,4 +19,4 @@ Por meio dos dados da Pesquisa Nacional de Saúde do Escolar - PeNSE 2015 foram 
 
 P-value é menor do que 0.05, logo a hipótese nula (ambas as distribuições são iguais) deve ser rejeitada, deste modo a distribuição da pretensão de escolaridade das estudantes que já engravidaram alguma vez e das que nunca engravidaram são diferentes.
 
-Estatisticamente a gravidez altera a pretensão do grau de escolaridade.
+Estatisticamente a gravidez altera a pretensão do grau de escolaridade para a amostra 1 (PeNSE, 2015).
