@@ -21,10 +21,10 @@ P-value é menor do que 0.05, logo a hipótese nula (ambas as distribuições s�
 
 Estatisticamente a gravidez altera a pretensão do grau de escolaridade para a amostra 1 (PeNSE, 2015).
 
-## Módulo 5: Análise de séries temporais
+## Módulo 4: Análise de séries temporais
 
-Neste módulo foram estudados conceitos necessários para análise de série temporal, como a tendência da série, sazonalidade e ruído, estacionariedade e modelos de previsão de série temporal. 
+Neste módulo foram estudados conceitos necessários para análise de série temporal, como a tendência da série, sazonalidade, ruído e estacionariedade; bem como modelos de previsão de série temporal. 
 
-![alt_text](https://github.com/MarcosRMG/Bootcamp-Alura-Data-Science/blob/main/img/prophet.png)
+![alt_text](https://github.com/MarcosRMG/Bootcamp-Alura-Data-Science/blob/main/img/prophet_casos.png)
 
 Analisando o número de casos e óbitos por COVID-19 no Brasil foi possível perceber que o modelo de previsão Prophet foi o que melhor se ajustou a série e consequentemente melhor previu dados futuros. 
